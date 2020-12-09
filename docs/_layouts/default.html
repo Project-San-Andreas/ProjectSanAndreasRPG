@@ -11,10 +11,15 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <style>
+      p {
+        text-align: justify;
+      }
+    </style>
   </head>
   <body>
-    <div class="wrapper">
-      <section>
+    <div class="wrapper" style="display: flex; width: auto">
+      <section style="width: auto; align-self: center">
         {{ content }}
       </section>
     </div>
